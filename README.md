@@ -78,6 +78,19 @@ These preprocessing steps ensured the data was suitable for machine learning and
 - Logistic Regression
 - Random Forest Classifier
 
+## Model Evaluation
+
+The models were evaluated using standard classification metrics:
+
+- Accuracy
+- Weighted Precision
+- Weighted Recall
+- Weighted F1-score
+
+Weighted averages were used to account for class distribution across the target variable.
+
+The notebook also supports visual evaluation using confusion matrices and ROC curves.
+
 ## Skills Demonstrated
 
 ### Data Engineering
@@ -116,11 +129,28 @@ These preprocessing steps ensured the data was suitable for machine learning and
 
 1. Loaded patient encounter data containing hospital admission, medication and readmission variables.
 2. Created additional synthetic patient-level features to support modelling.
-3. Cleaned and prepared the dataset for classification.
-4. Performed feature engineering and preprocessing.
-5. Trained Logistic Regression and Random Forest models.
-6. Evaluated model performance using classification metrics, confusion matrices and ROC curves.
-7. Compared model performance and interpreted the results.
+3. Removed unreliable columns and handled missing values.
+4. Encoded categorical variables using one-hot encoding and label encoding.
+5. Scaled numerical features using standardisation.
+6. Split the dataset into training and testing sets.
+7. Trained Logistic Regression and Random Forest models.
+8. Evaluated model performance using classification metrics, confusion matrices and ROC curves.
+9. Compared model performance and interpreted the results.
+
+## Feature Engineering and Preprocessing
+
+After missing values were handled, the dataset was prepared for machine learning through feature encoding and scaling.
+
+The preprocessing steps included:
+
+- Dropping the `weight` column due to missing or unreliable values.
+- Imputing missing values in selected categorical columns using the mode.
+- Applying one-hot encoding to categorical variables with limited unique values.
+- Applying label encoding to categorical variables with many unique values.
+- Scaling numerical features using `StandardScaler`.
+- Splitting the dataset into training and testing sets using an 80/20 split.
+
+These steps ensured that the dataset was converted into a suitable numerical format for Logistic Regression and Random Forest modelling.
 
 ## Results
 
