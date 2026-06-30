@@ -8,6 +8,14 @@ The project involved preparing and analysing patient-related data, building pred
 
 The aim of this project was to investigate whether machine learning models could support the prediction of patient outcomes by identifying patterns in historical healthcare data.
 
+## Dataset
+
+The original dataset used for this project is not included in this repository.
+
+During the MSc dissertation, the dataset was processed and transformed to create a modified dataset for machine learning analysis. This involved data cleaning, preprocessing and feature engineering to prepare the data for Logistic Regression and Random Forest modelling.
+
+The repository is therefore intended to showcase the machine learning workflow, Python implementation, model development and evaluation process rather than provide a fully reproducible dataset package.
+
 ## Technologies Used
 
 - Python
