@@ -91,6 +91,19 @@ Weighted averages were used to account for class distribution across the target 
 
 The notebook also supports visual evaluation using confusion matrices and ROC curves.
 
+## Model Performance
+
+The initial predictive models were evaluated using standard classification metrics.
+
+| Metric | Result |
+|---------|---------:|
+| Accuracy | 53.83% |
+| Weighted Precision | 44.98% |
+| Weighted Recall | 53.83% |
+| Weighted F1 Score | 44.53% |
+
+These results provided a baseline for comparing predictive models and highlighted opportunities for further optimisation through feature engineering, hyperparameter tuning and improved handling of class imbalance.
+
 ## Challenges Encountered
 
 During model evaluation, the initial Logistic Regression model produced class imbalance warnings, resulting in an `UndefinedMetricWarning` for precision on some classes.
