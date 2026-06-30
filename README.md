@@ -18,7 +18,19 @@ The repository is therefore intended to showcase the machine learning workflow, 
 
 ## Data Preparation
 
-Data Cleaning Process
+The dataset contained patient encounter information, including admission details, medication indicators and readmission status.
+
+Additional synthetic features were created for modelling purposes, including:
+
+- **Age** – generated numeric age values between 20 and 90.
+- **Gender** – generated categorical gender values.
+- **Has_Diabetes** – generated a binary diabetes indicator using an assumed prevalence of 20%.
+
+A fixed random seed was used to ensure the synthetic feature generation was reproducible.
+
+The dataset was then prepared for machine learning through preprocessing and feature engineering.
+
+## Data Cleaning Process
 
 The healthcare dataset required preprocessing before machine learning could be performed.
 
@@ -90,6 +102,21 @@ These preprocessing steps ensured the data was suitable for machine learning and
 5. Trained Logistic Regression and Random Forest models.
 6. Evaluated model performance using classification metrics, confusion matrices and ROC curves.
 7. Compared model performance and interpreted the results.
+
+## Results
+
+The project compared the predictive performance of Logistic Regression and Random Forest models for patient outcome prediction.
+
+Performance was evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC Curve
+- Confusion Matrix
+
+The notebook automatically generates evaluation metrics and visualisations, allowing the complete model assessment process to be reproduced.
 
 ## Key Learning
 
