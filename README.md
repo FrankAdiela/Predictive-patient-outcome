@@ -44,12 +44,13 @@ The repository is therefore intended to showcase the machine learning workflow, 
 
 ## Project Workflow
 
-1. Loaded and explored the dataset.
-2. Cleaned and prepared the data for modelling.
-3. Performed feature selection and preprocessing.
-4. Built Logistic Regression and Random Forest models.
-5. Evaluated model performance using classification metrics.
-6. Compared model results and interpreted findings.
+1. Loaded patient encounter data containing hospital admission, medication and readmission variables.
+2. Created additional synthetic patient-level features to support modelling.
+3. Cleaned and prepared the dataset for classification.
+4. Performed feature engineering and preprocessing.
+5. Trained Logistic Regression and Random Forest models.
+6. Evaluated model performance using classification metrics, confusion matrices and ROC curves.
+7. Compared model performance and interpreted the results.
 
 ## Key Learning
 
