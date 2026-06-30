@@ -1,5 +1,24 @@
 # Predictive Patient Outcomes Using Machine Learning
 
+## Project Features
+
+✔ Healthcare data preprocessing
+
+✔ Data quality assessment
+
+✔ Missing value handling
+
+✔ Feature engineering
+
+✔ Machine Learning modelling
+
+✔ Model comparison
+
+✔ Performance evaluation
+
+✔ Reproducible workflow
+
+
 This project was completed as part of my MSc in Applied Artificial Intelligence and Data Analytics. It explores how machine learning can be used to predict patient outcomes using healthcare data.
 
 The project involved preparing and analysing patient-related data, building predictive models, and evaluating model performance using appropriate machine learning metrics.
